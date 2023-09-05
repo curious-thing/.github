@@ -10,6 +10,19 @@
 <!--- Include details of your testing environment, and the tests you ran to -->
 <!--- see how your change affects other areas of the code, etc. -->
 
+## How Will This Be Integration Tested?
+<!--- List out each type of test that you will be performing when merging into development. -->
+<!--- Use the following table to decide what needs to be tested. -->
+<!--- https://curiousthing.atlassian.net/l/cp/5oEBc11J#table -->
+<!--- Remove non-applicable: -->
+- Making an inbound phone call
+- Making an inbound phone call and checking results
+- Schedule an outbound phone call
+- Using contact-automation dashboard (Inbound)
+- Using contact-automation dashboard (Outbound)
+- Using coda-builder dashboard
+- Specific - <!--- Describe the specific test here -->
+
 ## Screenshots (if appropriate)
 
 ## Types of changes
