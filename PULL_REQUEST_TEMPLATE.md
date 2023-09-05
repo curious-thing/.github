@@ -13,7 +13,7 @@
 ## How Will This Be Integration Tested?
 <!--- List out each type of test that you will be performing when merging into development. -->
 <!--- Use the following table to decide what needs to be tested. -->
-<!--- https://curiousthing.atlassian.net/wiki/spaces/ENG/pages/1001324553/PB+Core+area+testing#Service-and-impacted-core-feature-mapping-table -->
+<!--- https://curiousthing.atlassian.net/l/cp/5oEBc11J#table -->
 <!--- Remove non-applicable: -->
 - Making an inbound phone call
 - Making an inbound phone call and checking results
