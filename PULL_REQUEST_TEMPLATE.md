@@ -1,23 +1,33 @@
-## Description
-<!--- Describe your changes in detail -->
+# Overview
+<!-- What is the story behind this change -->
 
-## Motivation and Context
-<!--- Why is this change required? What problem does it solve? -->
+# Objectives
+<!-- What are you aiming to achieve because of this change -->
 
-## How Has This Been Tested?
-<!--- Please describe in detail how you tested your changes. -->
-<!--- Include details of your testing environment, and the tests you ran to -->
-<!--- see how your change affects other areas of the code, screenshots, etc. -->
+# Why
+<!-- What is the change for the customer - why is it important -->
 
-## Types of changes
-<!--- What types of changes does your code introduce? Remove non-applicable: -->
-- Bug fix (non-breaking change which fixes an issue)
-- New feature (non-breaking change which adds functionality)
-- Breaking change (fix or feature that would cause existing functionality to change)
+# Risks
+<!-- What could go wrong - what components and/or processes can see this change. Does this change have any performance impacts? How has it been assessed? -->
 
-## Checklist
-<!--- Go over all the following points, and put an `x` in all the boxes that are already done. -->
-<!--- Remove anything that does not apply.  This is a guide only and is not a must have. -->
-<!--- If you're unsure about any of these, don't hesitate to ask. -->
-- [ ] I have updated the documentation accordingly
-- [ ] I have added tests to cover my changes
+# Pipeline Changes
+<!-- Describe how this change impacts the build and deployment pipelines -->
+
+# Testing Environment
+<!-- Specify where this change was tested, e.g., locally, specific lab, team lab -->
+
+Thank you for your contribution to the MaxContact repo. 
+Before submitting this PR, please make sure:
+
+- [ ] There is a clear title and description
+- [ ] Your code builds clean without any errors
+- [ ] Coding standards have been followed and changes are consistent with the rest of the product
+- [ ] You have added sufficient unit tests that cover both edge cases and typical scenarios and they execute successfully
+- [ ] OWASP security has been reviewed, including new third-party libraries, input validation, authentication on new ingress points, and data encryption if applicable
+- [ ] Any potential risks are highlighted including elsewhere this code could impact
+- [ ] Testing notes have been updated on the linked ticket
+- [ ] Appropriate logging has been added, including error handling and debug information
+- [ ] Code comments are clear and explain any complex logic or decisions
+- [ ] SQL code executes successfully, including "IF NOT EXISTS" and "ON CONFLICT DO NOTHING" to ensure idempotency and avoid duplicate conflicts
+- [ ] Additional testing has been done locally by another team member (indicate who and what was tested)
+- [ ] Any changes have been updated to schema as required
