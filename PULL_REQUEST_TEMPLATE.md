@@ -1,33 +1,55 @@
-# Overview
-<!-- What is the story behind this change -->
+## Overview
 
-# Objectives
-<!-- What are you aiming to achieve because of this change -->
+<!-- Keep it short, but ensure it's traceable and reviewable. -->
 
-# Why
-<!-- What is the change for the customer - why is it important -->
+- Work item: [AB#ADOID]
+- Summary of change:
 
-# Risks
-<!-- What could go wrong - what components and/or processes can see this change. Does this change have any performance impacts? How has it been assessed? -->
+## Objectives
 
-# Pipeline Changes
-<!-- Describe how this change impacts the build and deployment pipelines -->
+<!-- What are you aiming to achieve because of this change? -->
 
-# Testing Environment
-<!-- Specify where this change was tested, e.g., locally, specific lab, team lab -->
+-  
 
-Thank you for your contribution to the MaxContact repo. 
-Before submitting this PR, please make sure:
+## Why
 
-- [ ] There is a clear title and description
-- [ ] Your code builds clean without any errors
-- [ ] Coding standards have been followed and changes are consistent with the rest of the product
-- [ ] You have added sufficient unit tests that cover both edge cases and typical scenarios and they execute successfully
-- [ ] OWASP security has been reviewed, including new third-party libraries, input validation, authentication on new ingress points, and data encryption if applicable
-- [ ] Any potential risks are highlighted including elsewhere this code could impact
-- [ ] Testing notes have been updated on the linked ticket
-- [ ] Appropriate logging has been added, including error handling and debug information
-- [ ] Code comments are clear and explain any complex logic or decisions
-- [ ] SQL code executes successfully, including "IF NOT EXISTS" and "ON CONFLICT DO NOTHING" to ensure idempotency and avoid duplicate conflicts
-- [ ] Additional testing has been done locally by another team member (indicate who and what was tested)
-- [ ] Any changes have been updated to schema as required
+<!-- What is the underlying reason for this change, customer issue fix, roadmap feature, address technical debt, process improvement  -->
+
+- Impact of the change:
+
+## Risks & Rollback
+
+<!-- What could go wrong and how do we undo it?
+     Consider: performance, DB load, security, backwards compatibility, feature flags. -->
+
+- Risk level: Low / Medium / High
+- Affected components / services:
+- Security / OWASP considerations:
+- Rollback approach: Redeploy previous version / Feature flag / Config change / N/A
+- Monitoring / smoke tests after deploy:
+
+## Pipeline Changes
+
+<!-- Leave blank or delete if no pipeline changes. -->
+
+- CI / CD changes:
+- New / updated secrets or variables (names only):
+- Manual steps required on deployment:
+
+## Testing
+
+<!-- How was this tested? Include environment, steps, and evidence. -->
+
+- Tested in: Local / Dev / Lab 
+- Test steps:
+  1. 
+- Evidence (links to test runs, screenshots, logs):
+
+## Checklist
+
+- [ ] Linked to the correct work item
+- [ ] Builds cleanly with no errors or warnings from my changes
+- [ ] Tests added or updated to cover the change
+- [ ] No commented-out code, debug leftovers, or accidental file changes
+- [ ] Security reviewed (input validation, auth, new dependencies)
+- [ ] DB changes are safe and repeatable, with audit / schema updates (if applicable)
